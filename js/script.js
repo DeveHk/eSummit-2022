@@ -59,3 +59,14 @@ $('.navbar a, .nav-link').on('click', function (event) {
     }
   };
 })();
+
+/**************************************************HAM NAV BAR*************************************************** */
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+document.querySelector(".hamNav").addEventListener('click', myFunction);
