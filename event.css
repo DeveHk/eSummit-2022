@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap");
 
 * {
   margin: 0;
@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif !important;
+  font-family: "Montserrat", sans-serif !important;
   overflow-x: hidden;
   width: 100vw;
 }
@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Quicksand' !important;
+  font-family: "Quicksand" !important;
 }
 
 .next {
@@ -50,7 +50,7 @@ h6 {
 /******************** Header ***********************/
 #header {
   background-color: #e2e5e8;
-  background-image: url('./img/bg.jpeg');
+  background-image: url("./img/bg.jpeg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -137,7 +137,7 @@ h6 {
   top: 28%;
   left: 40vw;
 }
-.event-img-investopreneur{
+.event-img-investopreneur {
   position: absolute;
   width: 50vw;
   height: 52%;
@@ -159,7 +159,6 @@ h6 {
   right: 35vw;
   bottom: 10%;
 }
-
 
 /******************** About ************************/
 .main_container {
@@ -249,7 +248,7 @@ h6 {
   position: relative;
   bottom: -28px;
   width: 230px;
-  height: 80px;
+  height: 5empx;
   padding: 1rem;
   background: #e68625;
   transition: all 0.5s ease-in-out;
@@ -272,7 +271,7 @@ h6 {
 
 /* Dots */
 #timeline ul li:after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: 0;
@@ -286,7 +285,7 @@ h6 {
 
 /* Arrows Base */
 #timeline div:before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 30px;
   width: 0;
