@@ -78,7 +78,7 @@ h6 {
 /*****************************************************Hamnav Bar***********************************************/
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  /* background-color: hsla(0, 0%, 20%, 0); */
   position: relative;
 }
 
@@ -91,7 +91,8 @@ h6 {
   color: black;
 }
 
-.topnav a {
+.topnav a,
+.topnav .hamNav {
   color: white;
   padding: 14px 16px;
   text-decoration: none;
@@ -99,7 +100,7 @@ h6 {
   display: block;
 }
 .hamNav {
-  background-color: #010101;
+  background-color: #0101011e;
   color: white;
 }
 .hamburger {
@@ -1191,7 +1192,8 @@ h6 {
   }
   .hamburger {
     display: block;
-    position: absolute;
+    position: fixed;
+    width: 100%;
     z-index: 5;
   }
 

@@ -61,12 +61,19 @@ $('.navbar a, .nav-link').on('click', function (event) {
 })();
 
 /**************************************************HAM NAV BAR*************************************************** */
-function myFunction() {
+function toggleHamButton() {
   var x = document.getElementById("myLinks");
+  var y = document.querySelector(".topnav");
   if (x.style.display === "block") {
     x.style.display = "none";
+    y.style.background ="#33333300"
+    
   } else {
     x.style.display = "block";
+    y.style.background = "#333333bb";
   }
 }
-document.querySelector(".hamNav").addEventListener('click', myFunction);
+
+
+document.querySelector(".hamNav").addEventListener('click', toggleHamButton);
+document.querySelector("#myLinks").addEventListener('click', toggleHamButton);
